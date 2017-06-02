@@ -38,9 +38,6 @@ public class SMTPConnection {
         toServer =   new DataOutputStream(connection.getOutputStream());
         isConnected = true;
 	
-        
-        System.out.println("\nLOG:\n");
-        
         /* Fill in */
         /* Read a line from server and check that the reply code is 220.
 	   	If not, throw an IOException. */
